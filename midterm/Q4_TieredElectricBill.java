@@ -35,5 +35,6 @@ public class Q4_TieredElectricBill {
 }
 /*
  * Time Complexity: O(n)
- * 說明：每筆資料常數時間內計算費用，總共處理 n 筆。
+ * 說明：對n筆帳單使用一次迴圈處理，每筆帳單的calc函數為O(1)因為固定遍歷6個費率區間，
+ * 總時間複雜度為O(n×1) = O(n)。階梯式電費計算時間與用電量大小無關。
  */

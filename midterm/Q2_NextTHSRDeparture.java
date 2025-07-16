@@ -29,6 +29,7 @@ public class Q2_NextTHSRDeparture {
     }
 }
 /*
- * Time Complexity: O(log n)
- * 說明：使用二元搜尋查找下一班車時間。
+ * Time Complexity: O(n)
+ * 說明：輸入時間轉換O(n)因為一次迴圈處理n個時間字串，二元搜尋O(log n)因為每次將搜尋範圍減半，
+ * 但整體時間複雜度由輸入處理的O(n)主導，因此為O(n)。
  */
